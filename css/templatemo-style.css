@@ -429,7 +429,7 @@ color: #000;
 -----------------------------------------*/
 
 #about .about-img {
-    background: url('../images/about-img.jpg') no-repeat;
+    background: url('../images/newhomeimg.jpg') no-repeat;
 }
 
 #about .about-thumb,
@@ -536,7 +536,7 @@ color: #000;
 }
 
 #education .education-img {
-  background: url('../images/education-img.jpg') no-repeat;
+  background: url('../images/gradimg.jpg') no-repeat;
 }
 
 #education .media-heading {
@@ -684,9 +684,9 @@ color: #000;
 .square-image {
   border-radius: 0%; /* Creates a circular shape */
   width: 400px; /* Adjust the width to your preference */
-  height: 400px; /* Adjust the height to your preference */
+  height: 450px; /* Adjust the height to your preference */
   object-fit: cover; /* Ensures the image fits within the circle without distortion */
-  border: 3px solid #fff; /* Optional: Add a white border around the circle */
+  border: 4px solid #da1c1c; /* Optional: Add a white border around the circle */
 }
 
 /*---------------------------------------
