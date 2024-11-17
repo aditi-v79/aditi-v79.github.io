@@ -55,17 +55,18 @@ function App() {
       description: 'Designing a React-based UI and NestJS REST APIs for the OpenPRA project, integrating microservices and shared schemas to enable scalable PRA model generation.'
     },
     {
+      company: 'Rubrik',
+      role: 'Customer Success Engineer',
+      period: '',
+      description: 'Created custom tech solutions related to company\'s core product, storage and backup verticals around the globe. Major Tech used were Python, Linux, Pearl, computer Networks, CockroachDB.'
+    },
+    {
       company: 'Food Parrot',
       role: 'Full Stack Developer',
       period: '',
       description: 'Developed high-performance web and mobile applications using ReactJS and Node.js, and streamlined deployment processes through CI/CD pipelines for a fast-paced startup environment.'
     },
-    {
-      company: 'Rubrik',
-      role: 'Customer Success Engineer',
-      period: '',
-      description: 'Created custom tech solutions related to company\'s core product, storage and backup verticals around the globe. Major Tech used were Python, Linux, Pearl, computer Networks, CockroachDB.'
-    }
+
   ];
 
   return (
