@@ -39,7 +39,7 @@ function App() {
   };
 
   const skills = [
-    { name: 'Frontend Development', icon: <Globe className="h-8 w-8" />, details: 'React, Vue, Angular TypeScript' },
+    { name: 'Frontend Development', icon: <Globe className="h-8 w-8" />, details: 'React, Vue, Angular, TypeScript' },
     { name: 'Backend Development', icon: <Server className="h-8 w-8" />, details: 'Node.js, Nest.js, Python, Java' },
     { name: 'Database Management', icon: <Database className="h-8 w-8" />, details: 'PostgreSQL, MongoDB, Firebase' },
     { name: 'System Architecture', icon: <Cpu className="h-8 w-8" />, details: 'AWS, Docker, Kubernetes' },
