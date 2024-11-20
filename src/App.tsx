@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { useRef } from 'react';
 import ResumePDF from './assets/Aditi_Vakeel-Resume.pdf';
-import profilephoto from './assets/profile_photo.jpg';
+import profilephoto from './assets/new_profile_photo.jpg';
 
 
 
