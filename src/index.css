@@ -2,6 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-scroll {
+  display: flex;
+  gap: 2rem;
+  animation: scroll 50s linear infinite; /* Adjusted duration for slower speed */
+  width: max-content;
+}
+
 
 
 
