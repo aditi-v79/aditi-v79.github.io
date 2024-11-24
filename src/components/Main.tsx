@@ -13,7 +13,7 @@ import {
     BrainCircuit,
     Rocket,
     MessageSquare,
-    Sparkles
+    Sparkles, Braces, Figma
 } from 'lucide-react';
 import { useInView } from 'react-intersection-observer';
 import { InteractiveBackground } from './InteractiveBackground';
@@ -41,8 +41,8 @@ function App() {
         { name: 'System Architecture', icon: <Cpu className="h-8 w-8" />, details: 'AWS, Docker, Kubernetes' },
         { name: 'API Development', icon: <Code2 className="h-8 w-8" />, details: 'REST, GraphQL' },
         { name: 'AI/ML Integration', icon: <BrainCircuit className="h-8 w-8" />, details: 'TensorFlow, PyTorch, Keras' },
-        { name: 'Programming Languages', icon: <Code2 className="h-8 w-8" />, details: 'Python, C++, Java, JavaScript, SQL, C, R, Perl' },
-        { name: 'UI/UX Design', icon: <BrainCircuit className="h-8 w-8" />, details: 'Figma, UI/UX Design Principles' },
+        { name: 'Programming Languages', icon: <Braces className="h-8 w-8" />, details: 'Python, C++, Java, JavaScript, SQL, C, R, Perl' },
+        { name: 'UI/UX Design', icon: <Figma className="h-8 w-8" />, details: 'Figma, UI/UX Design Principles' },
 
     ];
 
@@ -223,7 +223,7 @@ function App() {
             >
                 <div className="max-w-6xl mx-auto">
                     <h2 className="text-4xl font-bold text-center mb-16 bg-gradient-to-r from-pink-500 to-purple-500 text-transparent bg-clip-text">
-                        Professional Journey
+                        Professional Roles
                     </h2>
                     <div className="space-y-12">
                         {experiences.map((exp, index) => (
