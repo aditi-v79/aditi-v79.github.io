@@ -18,7 +18,7 @@ const projects = {
           'The OpenPRA Initiative is aimed at advancing the next generation of probabilistic risk assessment (PRA) methods and software.',
       image: openPRAImage,
       tech: ['React', 'TypeScript', 'NestJS', 'MongoDB'],
-      github: '',
+      github: 'https://ne.ncsu.edu/prag/news/2020/openpra-open-source-framework-for-probabilistic-risk-assessment/',
       live: '',
       featured: true,
     },
@@ -29,6 +29,7 @@ const projects = {
       tech: ['Vue', 'Django', 'SQLite', 'Redis', 'Celery', 'OpenAI', 'YOLO'],
       github: 'https://github.com/aditi-v79/TaskAutomationAIWorkflow',
       live: '',
+      featured: true,
     },
   ],
   past: [
@@ -158,6 +159,18 @@ export const Projects: React.FC = () => {
                     </span>
                       ))}
                     </div>
+                    {project.github && (
+                        <div className="flex justify-between items-center">
+                          <a
+                              href={project.github}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-gray-600 hover:text-purple-500 transition-colors"
+                          >
+                            <Github className="h-5 w-5" />
+                          </a>
+                        </div>
+                    )}
                   </div>
                 </motion.div>
             ))}
