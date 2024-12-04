@@ -13,7 +13,7 @@ import {
     BrainCircuit,
     Rocket,
     MessageSquare,
-    Sparkles, Braces, Figma
+    Sparkles, Braces, Figma, Wrench
 } from 'lucide-react';
 import { useInView } from 'react-intersection-observer';
 import { InteractiveBackground } from './InteractiveBackground';
@@ -37,11 +37,12 @@ function App() {
     const skills = [
         { name: 'Frontend Development', icon: <Globe className="h-8 w-8" />, details: 'React, Vue, Angular, TypeScript' },
         { name: 'Backend Development', icon: <Server className="h-8 w-8" />, details: 'Node.js, Nest.js, Python, Java' },
-        { name: 'Database Management', icon: <Database className="h-8 w-8" />, details: 'PostgreSQL, MongoDB, Firebase' },
-        { name: 'System Architecture', icon: <Cpu className="h-8 w-8" />, details: 'AWS, Docker, Kubernetes' },
-        { name: 'API Development', icon: <Code2 className="h-8 w-8" />, details: 'REST, GraphQL' },
-        { name: 'AI/ML Integration', icon: <BrainCircuit className="h-8 w-8" />, details: 'TensorFlow, PyTorch, Keras' },
+        { name: 'Database Management', icon: <Database className="h-8 w-8" />, details: 'PostgreSQL, SQLite, MongoDB, Firebase, Redis' },
+        { name: 'System Architecture', icon: <Cpu className="h-8 w-8" />, details: 'AWS, Docker, Kubernetes, OAuth 2.0' },
+        { name: 'API Development', icon: <Code2 className="h-8 w-8" />, details: 'REST, FastAPI, GraphQL, Express' },
+        { name: 'AI/ML Integration', icon: <BrainCircuit className="h-8 w-8" />, details: 'TensorFlow, PyTorch, Keras, YOLO, Pandas' },
         { name: 'Programming Languages', icon: <Braces className="h-8 w-8" />, details: 'Python, C++, Java, JavaScript, SQL, C, R, Perl' },
+        { name: 'Dev Tools & Methodologies', icon: <Wrench className="h-8 w-8" />, details: 'Jira, Selenium, Agile Development, CI/CD'},
         { name: 'UI/UX Design', icon: <Figma className="h-8 w-8" />, details: 'Figma, UI/UX Design Principles' },
 
     ];
@@ -51,19 +52,67 @@ function App() {
             company: 'NC State University',
             role: 'Software Development Engineer',
             period: '',
-            description: 'Designing a React-based UI and NestJS REST APIs for the OpenPRA project, integrating microservices and shared schemas to enable scalable PRA model generation.'
+            description: <ul>
+                <li><strong>Full-Stack Architecture Development:</strong> Spearheaded the ongoing redesign of the OpenPRA App, developing an intuitive full-stack web architecture for probabilistic risk assessment and quantification software using ReactJS, TypeScript, Zustand, and MongoDB, with a goal of improving user experience and efficiency by 30%.</li>
+
+                <li><strong>React-Based UI and REST API Implementation:</strong> Designed and implemented a React-based UI and scalable NestJS REST APIs for the OpenPRA project, integrating distributed microservices and shared schemas to streamline data flow and enable efficient PRA model generation.</li>
+
+                <li><strong>UI/UX Optimization:</strong> Iteratively designed user interfaces for Bayesian network models, testing multiple layouts to optimize both functionality and user interaction, resulting in a more streamlined design process and intuitive UX.</li>
+
+                <li><strong>API Architecture and Reliability:</strong> Architected scalable and high-performance RESTful APIs using Nest.js, boosting system reliability and enabling future-ready microservice communication for distributed quantification requests.</li>
+
+                <li><strong>Comprehensive Testing Suites:</strong> Developed and integrated comprehensive testing suites, including E2E, component, and backend tests using Cypress, Playwright, and Jest, expected to reduce bugs and deployment issues in production.</li>
+
+                <li><strong>Codebase Refactoring:</strong> Refactored codebases to adopt a modular and maintainable architecture, simplifying feature expansion and enhancing overall code quality.</li>
+            </ul>
+
+        },
+        {
+            company: 'NC State University',
+            role: 'Data Scientist',
+            period: '',
+            description: <ul>
+                <li><strong>Data Process Automation:</strong> Leveraged Python to automate over 15+ data workflows, reducing analysis latency by 80% and improving efficiency.</li>
+                <li><strong>Predictive Modeling:</strong> Enhanced predictive accuracy through multivariate regression and spatial analytics, leading to more reliable data models.</li>
+                <li><strong>Data Visualization:</strong> Built interactive dashboards and visualizations to effectively communicate cyclone forecasts and land resilience studies to stakeholders.</li>
+                <li><strong>Stakeholder Communication:</strong> Presented analytical findings to stakeholders, facilitating data-driven decision-making for climate resilience projects.</li>
+            </ul>
+
+
         },
         {
             company: 'Rubrik',
             role: 'Customer Success Engineer',
             period: '',
-            description: 'Created custom tech solutions related to company\'s core product, storage and backup verticals around the globe. Major Tech used were Python, Linux, Pearl, computer Networks, CockroachDB.'
+            description: <ul>
+                <li><strong>Collaborated with 100+ global clients</strong> to deliver tailored technical solutions for storage and backup systems, achieving a 95% customer satisfaction rate.</li>
+                <li><strong>Streamlined system log analysis</strong> by enhancing distributed tools using Perl, reducing analysis time by 25%.</li>
+                <li><strong>Proactively resolved 50+ technical issues</strong> in Rubrik CDM across Linux, networking, and VMware, utilizing strong problem-solving skills and reducing customer downtime.</li>
+                <li><strong>Led alert management</strong> by analyzing and implementing action plans for software problems using .NET Core and Grafana, significantly improving system reliability.</li>
+                <li><strong>Authored knowledge base articles</strong> in Confluence, informed by Jira statistics, reducing repetitive customer inquiries by 15%.</li>
+                <li><strong>Monitored cluster health</strong> through regular performance checks and preventative issue resolution, ensuring optimal system functionality.</li>
+                <li><strong>Advanced troubleshooting expertise</strong>, working with cross-functional teams to resolve complex software issues, improving product performance and customer satisfaction.</li>
+                <li><strong>Enhanced product development</strong> by channeling customer feedback to support engineering, product, and field teams, driving impactful product enhancements.</li>
+                <li><strong>Managed proactive customer engagement</strong>, maintaining regular follow-ups, offering recommendations, and fostering strong client relationships.</li>
+                <li><strong>Maintained compliance</strong> with technical documentation and operational standards, ensuring accuracy and reliability in support activities.</li>
+            </ul>
+
         },
         {
             company: 'Food Parrot',
             role: 'Full Stack Developer',
             period: '',
-            description: 'Developed high-performance web and mobile applications using ReactJS and Node.js, and streamlined deployment processes through CI/CD pipelines for a fast-paced startup environment.'
+            description: <ul>
+                <li><strong>Frontend and Backend Integration:</strong> Architected robust web and mobile interfaces using ReactJS and React Native, integrating tightly with back-end services to maintain a 90% API uptime, ensuring seamless user interactions and system reliability.</li>
+                <li><strong>Performance Optimization:</strong> Reduced page load times by 10% through strategic implementation of prefetching and asynchronous API calls, significantly enhancing front-end performance and user experience.</li>
+                <li><strong>Backend Efficiency:</strong> Improved back-end efficiency by implementing Redis caching strategies in the Node.js application, resulting in faster CRUD operations and improved data retrieval times.</li>
+                <li><strong>Mobile Optimization:</strong> Spearheaded the implementation of Accelerated Mobile Pages (AMP), leading to a 25% increase in mobile search traffic and improved mobile user engagement.</li>
+                <li><strong>Cross-Platform Consistency:</strong> Ensured consistent look and functionality across web and mobile platforms by employing responsive design principles and conducting cross-platform testing, increasing user satisfaction and engagement.</li>
+                <li><strong>Scalable Architecture Design:</strong> Designed and implemented scalable server-side architectures using Node.js, supporting exponential user growth and dynamic content management without performance degradation.</li>
+                <li><strong>Agile Development Practices:</strong> Actively participated in agile development cycles, including sprints, stand-ups, and retrospectives, contributing to continuous process improvement and fostering a culture of iterative progress.</li>
+                <li><strong>Interdisciplinary Collaboration:</strong> Collaborated with cross-functional teams to optimize software solutions, ensuring integrated efforts led to comprehensive product enhancements and sustained performance improvements.</li>
+            </ul>
+
         },
 
     ];
@@ -257,8 +306,8 @@ function App() {
                     <div className="p-8 bg-gradient-to-r from-purple-100 to-pink-100 rounded-xl shadow-md">
                         <div className="text-left">
                             <ul className="space-y-6 text-lg text-gray-700 leading-relaxed">
-                                <li className="flex items-start">
-                                    <strong className="mr-2">Publication:</strong>
+                                <li >
+                                    <strong >Publication- </strong>
                                     <a
                                         href="https://ieeexplore.ieee.org/document/9725957"
                                         target="_blank"
@@ -269,7 +318,7 @@ function App() {
                                     </a>
                                 </li>
                                 <li>
-                                    <strong>Certifications:</strong>
+                                    <strong>Certifications</strong>
                                     <ul className="ml-6 list-disc">
                                         <li>Java for Android - Vanderbilt University</li>
                                         <li>Google UX Design Certificate</li>

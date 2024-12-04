@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import About from './components/About'; // Import the About component
+import About from './components/About';
 import Main from './components/Main';
 import ResumePDF from './assets/Aditi_Vakeel-Resume.pdf';
 
@@ -20,7 +20,7 @@ function App() {
             {/* Navigation Links */}
             <div className="flex gap-8">
               <Link to="/" className="text-gray-700 hover:text-purple-500">
-                Work
+                Home
               </Link>
               <Link to="/about" className="text-gray-700 hover:text-purple-500">
                 About
@@ -39,8 +39,8 @@ function App() {
 
         {/* Define Routes */}
         <Routes>
-          <Route path="/" element={<Main />} /> {/* Main Work Page */}
-          <Route path="/about" element={<About />} /> {/* About Page */}
+          <Route path="/" element={<Main/>} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </Router>
   );

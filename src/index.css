@@ -19,8 +19,6 @@
 }
 
 
-
-
 @layer base {
   html {
     scroll-behavior: smooth;
@@ -38,4 +36,13 @@
     background-clip: text;
   }
 
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
 }
