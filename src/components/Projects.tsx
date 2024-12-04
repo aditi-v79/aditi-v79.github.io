@@ -49,14 +49,6 @@ const projects = {
       github:'https://github.com/aditi-v79/E-commerce-Full-Stack-Application',
     },
     {
-      title: 'Job Application Filler Plugin',
-      description:
-          'A modern web application that helps streamline your job application process.',
-      image: 'https://images.unsplash.com/photo-1661956602116-aa6865609028?auto=format&fit=crop&q=80&w=800',
-      tech: ['TypeScript', 'Tailwind', 'Zustand', 'Vite'],
-      github: 'https://github.com/aditi-v79/Job-Applications-Form-Plugin',
-    },
-    {
       title: 'Information Diffusion - Eating Disorder Community',
       description:
           'Studies the information diffusion in eating disorder communities by analyzing properties of sub-communities on Twitter.',
@@ -73,6 +65,14 @@ const projects = {
       tech: ['Java', 'MariaDB', 'SQL', 'ERDiagrams'],
       github:
           'https://github.com/aditi-v79/wolfParkingManagementSystem',
+    },
+    {
+      title: 'Job Application Filler Plugin',
+      description:
+          'A modern web application that helps streamline your job application process.',
+      image: 'https://images.unsplash.com/photo-1661956602116-aa6865609028?auto=format&fit=crop&q=80&w=800',
+      tech: ['TypeScript', 'Tailwind', 'Zustand', 'Vite'],
+      github: 'https://github.com/aditi-v79/Job-Applications-Form-Plugin',
     },
     {
       title: 'Food Delivery Dashboard',
