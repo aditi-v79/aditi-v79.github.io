@@ -1,4 +1,4 @@
-import photo2 from '../assets/profile_photo.jpg';
+import photo2 from '../assets/bit4.png';
 import maitri from '../assets/maitri.jpeg';
 import wics from '../assets/wics.jpeg';
 import codechef from '../assets/codechef.png';
