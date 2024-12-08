@@ -167,8 +167,11 @@ function App() {
                             <span className="text-black"> <i> & a</i> </span>
                             <span className="bg-gradient-to-r from-pink-500 to-purple-500 text-transparent bg-clip-text">
                 <i>Full Stack</i>
-    </span>
+     </span>
                             <span className="text-black"> <i>Engineer</i></span>
+                            <span className="text-black"> <i>with </i></span>
+                            <span className="bg-gradient-to-r from-pink-500 to-purple-500 text-transparent bg-clip-text"> <i>AI</i></span>
+                            <span className="text-black"> <i> expertise</i></span>
                         </h1>
                         <p className="text-xl text-gray-600 mb-8">
                             <i>"I craft elegant solutions to complex problems with code and creativity, driven by a passion for building scalable, business-oriented applications that prioritize customer needs and deliver impactful results."</i>
