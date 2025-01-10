@@ -324,9 +324,10 @@ function App() {
                                     <strong>Certifications</strong>
                                     <ul className="ml-6 list-disc">
                                         <li>Java for Android - Vanderbilt University</li>
-                                        <li>Google UX Design Certificate</li>
                                         <li>Data Management and Visualization - Wesleyan University</li>
                                         <li>Data Analysis Tools - Wesleyan University</li>
+                                        <li>AI Product Management (10 Course Series)- IBM</li>
+                                        <li>Google UX Design Certificate</li>
                                     </ul>
                                 </li>
                             </ul>
