@@ -106,7 +106,7 @@ export function About() {
                     >
                         <HeartHandshake className="w-12 h-12 text-rose-600 mx-auto mb-4" />
                         <h3 className="text-xl font-semibold mb-2">Mentoring</h3>
-                        <p className="text-gray-600">Sharing knowledge, growing together</p>
+                        <p className="text-gray-600">I strive to share knowledge & growing together</p>
                     </motion.div>
 
                     <motion.div
@@ -114,8 +114,8 @@ export function About() {
                         className="p-6 bg-white rounded-xl shadow-lg text-center"
                     >
                         <Book className="w-12 h-12 text-indigo-600 mx-auto mb-4" />
-                        <h3 className="text-xl font-semibold mb-2">Novel Reading</h3>
-                        <p className="text-gray-600">Getting lost in stories that inspire creativity and new perspectives</p>
+                        <h3 className="text-xl font-semibold mb-2"> Volunteering </h3>
+                        <p className="text-gray-600">I give back to the community being part of various clubs & societies.</p>
                     </motion.div>
 
                     <motion.div
@@ -124,7 +124,7 @@ export function About() {
                     >
                         <Brain className="w-12 h-12 text-rose-600 mx-auto mb-4" />
                         <h3 className="text-xl font-semibold mb-2">AI Exploration</h3>
-                        <p className="text-gray-600">Exploring the fascinating world of artificial intelligence and its possibilities</p>
+                        <p className="text-gray-600"> I love exploring the fascinating world of artificial intelligence and its possibilities</p>
                     </motion.div>
                 </motion.section>
 

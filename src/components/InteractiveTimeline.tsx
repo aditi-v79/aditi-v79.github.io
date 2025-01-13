@@ -5,7 +5,7 @@ const timelineItems = [
     {
         icon: <Heart className="w-6 h-6" />,
         title: "Why I Code",
-        description: "I fell in love with coding when I realized it's like solving puzzles while creating art. Every line of code is an opportunity to make someone's life a little better.",
+        description: "I saw coding as more than just a skill-it gave me the freedom to dream big, solve meaningful problems, and create something that could truly impact lives. That’s why I started, and that’s what keeps me going.",
         color: "bg-red-100 text-red-600"
     },
     {
@@ -17,13 +17,13 @@ const timelineItems = [
     {
         icon: <Plane className="w-6 h-6" />,
         title: "Adventures",
-        description: "Traveling isn't just about visiting places; it's about discovering new perspectives. Each journey teaches me something new about design and user experiences.",
+        description: "I love travelling, from adrenaline-filled sports to making mountains my home for vacation. When I’m not exploring, you’ll likely find me on a tennis court or smashing a game of ping pong. ",
         color: "bg-green-100 text-green-600"
     },
     {
         icon: <Book className="w-6 h-6" />,
         title: "Always Learning",
-        description: "Currently learning French! Because why not? Life is about challenging yourself and finding joy in the journey of continuous growth.",
+        description: "Currently learning French! Because why not? I’m also the kind of person whose bookshelf outshines their TV. ",
         color: "bg-yellow-100 text-yellow-600"
     }
 ];
