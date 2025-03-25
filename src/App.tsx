@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import About from './components/About';
 import Main from './components/Main';
-import ResumePDF from './assets/Aditi_Vakeel-Resume.pdf';
+import ResumePDF from './assets/Aditi-Vakeel-Resume.pdf';
 
 function App() {
   return (
